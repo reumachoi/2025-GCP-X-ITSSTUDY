@@ -12,10 +12,26 @@
   - Compute Engine을 통한 가상 머신 배포
   - 기본 모니터링 메트릭 확인
 
+- **VM 설정 및 HTTP 트래픽 허용**  
+  ![VM HTTP 트래픽 설정](./week1-images/vm-setting-http-traffic-allow.png)
+
+  *VM 인스턴스 생성 시 HTTP 트래픽을 허용하는 설정*
+
+- **Apache 웹 서버 실행**
+  
+  ![Apache 웹 서버](./week1-images/apache-web.png)
+  
+  *VM에서 실행 중인 Apache 웹 서버 화면*
+
 - **Uptime Check 설정**
   - 서비스 가용성 모니터링
   - HTTP/HTTPS, TCP 프로토콜 체크
   - 글로벌 위치에서의 가용성 검증
+  
+  ![Uptime Check 설정](./week1-images/uptime-check-setting.png)
+  ![Uptime Check 알림](./week1-images/uptime-check-alerting.png)
+  
+  *Uptime Check 알림 정책 설정 화면*
 
 - **Cloud Monitoring Agent 설치**
   - **Ops Agent 설치**: `curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh`
@@ -47,6 +63,11 @@
 - **로그 기반 메트릭(Log-based Metrics) 생성**
   - 로그 항목에서 자동으로 메트릭 추출
   - 실시간 모니터링 및 알림 기반 제공
+  
+  
+  ![로그 기반 메트릭 인시던트](./week1-images/custom-logs-based-metric-incident.png)
+  
+  *로그 기반 메트릭을 활용한 인시던트 감지 및 알림*
 
 ### 메트릭 유형
 - **Counter 메트릭**
@@ -79,6 +100,12 @@
 - PagerDuty, Webhook, pub/sub, google chat
 - 모바일 앱 푸시 알림
 
+![알림 채널 목록](./week1-images/nofitication-channel-list.png)
+*설정된 알림 채널 목록*
+
+![수신된 이메일 알림](./week1-images/recieved-email.png)
+*실제 수신된 이메일 알림 예시*
+
 ### 대시보드(Dashboard) 구성
 - **커스텀 차트 생성**
   - 라인 차트, 히트맵, 게이지 등
@@ -88,11 +115,18 @@
 - **공유 및 권한 관리**
   - 팀 단위 대시보드 공유
 
+![커스텀 대시보드](./week1-images/custom-dashboard.png)
+*사용자 정의 대시보드 구성 예시*
+
 ---
 
 ## 학습 성과 배지
 
-![Monitor and Log Badge](./badges/monitor-and-log.png)
+![Skill Badge](./week1-images/skill-badge.png)
+*Google Cloud Observability 과정 완료 배지*
+
+
+*과정 완료 화면*
 ---
 
 ## 참고 자료
