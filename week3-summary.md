@@ -47,6 +47,10 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/fancy-monolith-890:1.0
 - **Docker 이미지 빌드**: Cloud Build 환경에서 이미지 생성
 - **레지스트리 푸시**: 완성된 이미지를 Container Registry에 저장
 
+### Cloud Build 
+- `cloudbuild.yaml` 파일을 통해 자세한 커스텀 가능
+  - 빌드 커맨드 등 CI 프로세스 관리
+
 📚 [Cloud Build 가이드](https://cloud.google.com/build/docs)
 
 ---
