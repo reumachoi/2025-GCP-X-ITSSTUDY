@@ -1,6 +1,7 @@
 # Week 1 Summary - Google Cloud Observability
 
 ## Monitor and Log with Google Cloud Observability
+- https://www.cloudskillsboost.google/paths/20/course_templates/749
 - Google Cloud의 관찰 가능성(Observability) 도구들을 활용하여 애플리케이션과 인프라를 효과적으로 모니터링하고 로깅하는 방법을 학습합니다.
 
 ---

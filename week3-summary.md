@@ -1,6 +1,7 @@
 # Week 3 Summary - Build a Website on Google Cloud
 
 ## Build a Website on Google Cloud
+- https://www.cloudskillsboost.google/course_templates/638
 - Cloud Run에서 웹사이트 배포, Compute Engine에서 웹 앱 호스팅, Google Kubernetes Engine에서 웹사이트 생성/배포/확장, Cloud Build를 사용하여 모놀리식 애플리케이션을 마이크로서비스 아키텍처로 마이그레이션하는 방법을 학습합니다.
 
 ---

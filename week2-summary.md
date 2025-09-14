@@ -1,6 +1,7 @@
 # Week 2 Summary - Google Cloud Network
 
 ## Set Up a Google Cloud Network
+- https://www.cloudskillsboost.google/course_templates/641
 - Google Cloud에서 사용자 정의 네트워크를 생성하고, 서브넷과 방화벽 규칙을 추가한 후 VM을 생성하여 네트워크 통신 및 지연시간을 테스트하는 방법을 학습합니다.
 
 ---
