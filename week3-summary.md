@@ -30,6 +30,13 @@ gcloud services enable artifactregistry.googleapis.com \
 -> [Container Registry에서 전환](https://cloud.google.com/artifact-registry/docs/transition/transition-from-gcr?hl=ko)
 ---
 
+
+#### Cloud Run
+- container 이미지로 인스턴스를 만들어서 관리하는 방식.
+- aws lambda과 달리 클라우드에서 지원하는 런타임에 의존하지 않기 때문에 독립적으로 관리 가능(업데이트 번거로움이 없어보임).
+
+[Cloud Run 소개 문서](https://cloud.google.com/run/docs/overview/what-is-cloud-run?hl=ko)
+
 ## Goal 2: Automated Build with Cloud Build
 
 ### Cloud Build 활용
